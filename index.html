@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1><b>Formularios en HTML</b></h1>
+    </header>
+    <section>
+        <h2>Datos Personales</h2>
+        <form action="">
+            <label for="text"><b>Nombre:</b></label>
+            <input type="text" name="nombre" id="nombre" placeholder="Escriba su nombre">
+            <br>
+            <label for="email"><b>Correo Electrónico</b></label>
+            <input type="email" name="email" id="email" placeholder="miemail@ejemplo.com">
+            <br>
+            <label for="tel"><b>Teléfono</b></label>
+            <input type="tel" name="tel" id="tel" required placeholder="096x-xxx-xxx">
+        </form>
+    </section>
+    <section>
+        <h2><b>Género</b></h2>
+        <form action="">
+            <input type="radio" name="lista" id="Masculino" value="Masculino">
+            <label for="Masculino">Masculino</label>
+            <br>
+            <input type="radio" name="lista" id="Femenino" value="Femenino">
+            <label for="Femenino">Femenino</label>
+            <br>
+            <input type="radio" name="lista" id="Otro" value="Otro">
+            <label for="Otro">Otro</label>
+        </form>
+    </section>
+    <section>
+        <h2><b>Preferencias</b></h2>
+        <form action="">
+            <input type="checkbox" name="Música" id="Música" value="Música">
+            <label for="Música">Música</label>
+            <br>
+            <input type="checkbox" name="Deportes" id="Deportes" value="Deportes">
+            <label for="Deportes">Deportes</label>
+            <br>
+            <input type="checkbox" name="Lectura" id="Lectura" value="Lectura">
+            <label for="Lectura">Lectura</label> 
+        </form>
+    </section>
+    <section>
+        <h2>Comentarios</h2>
+        <form action="">
+            <textarea name="Comentarios" id="Comentarios" cols="60" rows="5"></textarea>
+            <br>
+            <input type="submit" value="Enviar">
+            
+        </form> 
+    </section>
+</body>
+
+</html>
